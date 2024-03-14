@@ -41,11 +41,13 @@ const Header = () => {
             >
               <div className="navbar_left">
                 <ul className="nav_lists">
-                  <Link className="nav_link" to="/about">
-                    <li className="nav_list">about</li>
-                  </Link>
-                  <Link className="collapse nav_link" to="/experience">
-                    <li className="nav_list">
+                  <li className="nav_list">
+                    <Link className="nav_link" to="/about">
+                      about
+                    </Link>
+                  </li>
+                  <li className="nav_list">
+                    <Link className="collapse nav_link" to="/experience">
                       experience
                       <span className="sub_nav">
                         <ul>
@@ -53,14 +55,18 @@ const Header = () => {
                           <li>experience 2</li>
                         </ul>
                       </span>
-                    </li>
-                  </Link>
-                  <Link className="nav_link" to="/project">
-                    <li className="nav_list">project</li>
-                  </Link>
-                  <Link className="nav_link" to="/contact">
-                    <li className="nav_list">contact</li>
-                  </Link>
+                    </Link>
+                  </li>
+                  <li className="nav_list">
+                    <Link className="nav_link" to="/project">
+                      project
+                    </Link>
+                  </li>
+                  <li className="nav_list">
+                    <Link className="nav_link" to="/contact">
+                      contact
+                    </Link>
+                  </li>
                 </ul>
               </div>
               <div className="navbar_right">
@@ -72,11 +78,13 @@ const Header = () => {
             <div id="navbar" className="navbar">
               <div className="navbar_left">
                 <ul className="nav_lists">
-                  <Link className="nav_link" to="/about">
-                    <li className="nav_list">about</li>
-                  </Link>
-                  <Link className="collapse nav_link" to="/experience">
-                    <li className="nav_list">
+                  <li className="nav_list">
+                    <Link className="nav_link" to="/about">
+                      about
+                    </Link>
+                  </li>
+                  <li className="nav_list">
+                    <Link className="collapse nav_link" to="/experience">
                       experience
                       <span className="sub_nav">
                         <ul>
@@ -84,14 +92,18 @@ const Header = () => {
                           <li>experience 2</li>
                         </ul>
                       </span>
-                    </li>
-                  </Link>
-                  <Link className="nav_link" to="/project">
-                    <li className="nav_list">project</li>
-                  </Link>
-                  <Link className="nav_link" to="/contact">
-                    <li className="nav_list">contact</li>
-                  </Link>
+                    </Link>
+                  </li>
+                  <li className="nav_list">
+                    <Link className="nav_link" to="/project">
+                      project
+                    </Link>
+                  </li>
+                  <li className="nav_list">
+                    <Link className="nav_link" to="/contact">
+                      contact
+                    </Link>
+                  </li>
                 </ul>
               </div>
               <div className="navbar_right">

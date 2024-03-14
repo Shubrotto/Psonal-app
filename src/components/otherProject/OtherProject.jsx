@@ -1,14 +1,6 @@
-import { useState } from "react";
 import "./otherProject.css";
-import Quotes from "../quote/Quotes";
 
 const OtherProject = () => {
-  const [showData, setShowData] = useState(false);
-
-  const handleClick = () => {
-    setShowData(!showData);
-  };
-
   return (
     <section id="common-section-gray" className="common-section-gray">
       <div className="other-wrapper">
@@ -102,12 +94,6 @@ const OtherProject = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="more_project">
-          <button className="show_more_btn" onClick={handleClick}>
-            Show more
-          </button>
-          {showData === true ? <Quotes /> : null}
         </div>
       </div>
     </section>

@@ -7,6 +7,7 @@ import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import Info from "../components/info/Info";
 import OtherProject from "../components/otherProject/OtherProject";
+import Quotes from "../components/quote/Quotes";
 
 const Home = () => {
   const [scrollBottom, setScrollBottom] = useState(true);
@@ -30,6 +31,7 @@ const Home = () => {
       <Header />
       <Info scrollBottom={scrollBottom} handleScrollDown={handleScrollDown} />
       <About />
+      <Quotes />
       <Experience />
       <FeatureProject />
       <OtherProject />

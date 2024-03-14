@@ -1,3 +1,23 @@
+.more_project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.show_more_btn {
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  background: lightblue;
+  border-radius: 10px;
+  color: black;
+}
+
 .quotes_container {
   display: flex;
   flex-direction: column;
@@ -8,29 +28,41 @@
 .wrapper_quotes {
   margin: 20px 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  position: relative;
+}
+
+.left_arrow {
+  position: absolute;
+  left: 0px;
+  top: 30%;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: 0.5s;
+}
+
+.right_arrow {
+  position: absolute;
+  right: 0px;
+  top: 30%;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: 0.5s;
+}
+
+.left_arrow:hover,
+.right_arrow:hover {
+  opacity: 1;
+  font-size: 20px;
 }
 
 .quotes_item {
-  width: 30%;
   display: flex;
-  flex-wrap: wrap;
-  margin: 5px 5px;
-  padding: 5px;
+  margin: 2px 10px;
+  padding: 0 5px;
   border-radius: 5px;
   align-items: center;
   flex-direction: column;
   color: #161515;
-  transition: 0.6s ease-in-out;
-  cursor: pointer;
-}
-
-.quotes_item:hover {
-  box-shadow: 1px 0px 15px 8px rgba(34, 128, 214, 0.75);
-  -webkit-box-shadow: 1px 0px 15px 8px rgba(34, 128, 214, 0.75);
-  -moz-box-shadow: 1px 0px 15px 8px rgba(34, 128, 214, 0.75);
-  background: lightblue;
 }
 
 .quotes_item h5 {

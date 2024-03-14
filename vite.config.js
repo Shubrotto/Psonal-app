@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/Psonal-app/",
+  // base: "/psonal-app/",
   plugins: [react()],
   build: {
     OutDir: " build",
